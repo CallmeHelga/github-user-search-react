@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://callmehelga.github.io/github-user-search-react",
+  "homepage": "https://CallmeHelga.github.io/github-user-search-react",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

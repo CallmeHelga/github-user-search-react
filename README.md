@@ -7,12 +7,12 @@ The app supports light/dark theme toggle and adapts to mobile and tablet screen 
 
 ## Features
 
-**Search GitHub Users** – Fetch and display user data by entering a GitHub username.
-**Light/Dark Theme Toggle** – Seamlessly switch between light and dark mode.
-**User Information Display** – View name, avatar, bio, repositories, followers, following, location, and more.
-**Responsive Design** – Optimized layout for desktop, tablet (768px), and mobile (375px).
-**Error Handling** – Displays a message when a user is not found.
-**Interactive UI** – Hover states, clean layout, and accessible navigation.
+- **Search GitHub Users** – Fetch and display user data by entering a GitHub username.
+- **Light/Dark Theme Toggle** – Seamlessly switch between light and dark mode.
+- **User Information Display** – View name, avatar, bio, repositories, followers, following, location, and more.
+- **Responsive Design** – Optimized layout for desktop, tablet (768px), and mobile (375px).
+- **Error Handling** – Displays a message when a user is not found.
+- **Interactive UI** – Hover states, clean layout, and accessible navigation.
 
 ## Tech Stack
 
