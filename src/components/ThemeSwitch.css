@@ -1,0 +1,20 @@
+.theme-switch {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Space Mono", monospace, sans-serif;
+    color: #90A4D4;
+    letter-spacing: 2.5px;
+    font-size: 13px;
+}
+
+.theme-switch img {
+    width: 20px;
+    height: 20px;
+    color: #90A4D4;
+}

@@ -1,0 +1,132 @@
+.search-container {
+    margin-top: 80px;
+    width: 100%;
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar {
+    position: relative;
+    width: 100%;
+    height: 69px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.search-bar:focus-within {
+    border: 1px solid #0079FF;
+}
+
+.search-bar img {
+    padding-left: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    min-width: 0;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: "Space Mono", monospace, sans-serif;
+}
+
+.search-bar input::placeholder {
+    font-family: "Space Mono", monospace, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4B6A9B;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-btn {
+    position: absolute;
+    right: 17px;
+    width: 127px;
+    height: 50px;
+    border: none;
+    background-color: #0079FF;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-family: "Space Mono";
+}
+
+.search-btn:hover {
+    cursor: pointer;
+    background-color: #60ABFF;
+    transition: 0.3s;
+}
+
+.search-btn:active {
+    outline: 2px solid white;
+    box-shadow: 0 0 0 3px #0079FF;
+}
+
+.error-text {
+    position: absolute;
+    right: 130px;
+    font-size: 18px;
+    font-family: "Space Mono", monospace, sans-serif;
+    font-weight: bold;
+    color: #F74646;
+    white-space: nowrap;
+    padding-right: 30px;
+}
+
+/* Dark mode */
+.dark .search-bar,
+.dark input {
+    background-color: #1E2A47;
+    color: white;
+}
+
+.dark input::placeholder {
+    color: rgba(255, 255, 255, 0.707);
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .search-container {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .search-container {
+        margin-top: 32px;
+    }
+
+    .search-bar input {
+        padding-left: 5px;
+    }
+
+    .search-bar input::placeholder {
+        font-size: 13px;
+
+    }
+
+    .search-bar img {
+        width: 20px;
+        padding-left: 7px;
+    }
+
+    .btn {
+        width: 99px;
+        height: 48px;
+        right: 8px;
+    }
+
+    .error-text {
+        display: none;
+    }
+}
