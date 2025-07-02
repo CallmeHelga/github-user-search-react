@@ -38,3 +38,9 @@ main {
   flex-direction: column;
   gap: 1.5rem
 }
+
+@media (max-width: 767px) {
+  .content {
+    max-width: 343px;
+  }
+}
