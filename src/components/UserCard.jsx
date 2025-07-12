@@ -4,15 +4,18 @@ import iconLocation from '../assets/icon-location.svg';
 import iconWebsite from '../assets/icon-website.svg'
 import iconTwitter from '../assets/icon-twitter.svg'
 import iconCompany from '../assets/icon-company.svg'
+import { formatDate } from 'date-mini-format'
 
 export default function UserCard({ userData }) {
 
 
-    const formattedDate = new Date(userData.created_at).toLocaleDateString('en-GB', {
-        day: '2-digit',
-        month: 'short',
-        year: 'numeric'
-    })
+    // const formattedDate = new Date(userData.created_at).toLocaleDateString('en-GB', {
+    //     day: '2-digit',
+    //     month: 'short',
+    //     year: 'numeric'
+    // })
+
+    const formattedDate = formatDate(userData.created_at)
 
 
     return (

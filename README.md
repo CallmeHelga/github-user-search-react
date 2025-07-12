@@ -13,6 +13,11 @@ The app supports light/dark theme toggle and adapts to mobile and tablet screen 
 - **Responsive Design** – Optimized layout for desktop, tablet, and mobile.
 - **Error Handling** – Displays a message when a user is not found.
 - **Interactive UI** – Hover states, clean layout, and accessible navigation.
+- **Custom Date Formatting** - Replaced native date formatting with a custom-built npm package : [date-mini-format](https://www.npmjs.com/package/date-mini-format)
+
+## Custom NPM Package
+
+This project uses a lightweight date formatting utility developed specifically for it: [date-mini-format](https://www.npmjs.com/package/date-mini-format)
 
 ## Tech Stack
 
@@ -24,3 +29,4 @@ The app supports light/dark theme toggle and adapts to mobile and tablet screen 
 ## Design
 
 The design for this project was taken from Frontend Mentor.
+
